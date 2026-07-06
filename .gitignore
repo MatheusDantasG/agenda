@@ -1,0 +1,18 @@
+# Dependências
+node_modules/
+vendor/
+
+# Configuração local / credenciais
+.env
+conecta_bd.php
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editores
+.vscode/
+.idea/
