@@ -65,5 +65,6 @@ Sistema web simples de agenda de contatos feito em PHP + MySQL, com listagem, ca
 ├── schema.sql                # Script de criação do banco/tabela
 └── package.json
 ```
+<img width="1321" height="696" alt="image" src="https://github.com/user-attachments/assets/e6660b32-b05b-4654-bf85-51ce9e91e172" />
 
 
