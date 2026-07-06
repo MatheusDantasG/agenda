@@ -66,13 +66,4 @@ Sistema web simples de agenda de contatos feito em PHP + MySQL, com listagem, ca
 └── package.json
 ```
 
-## Aviso de segurança
 
-Este projeto foi feito para fins de estudo. As consultas SQL atuais são montadas por concatenação de strings, o que expõe o sistema a **SQL Injection**, e os dados são exibidos sem escapar HTML, o que expõe a **XSS**. Antes de usar em produção, recomenda-se:
-
-- Usar **prepared statements** (`$con->prepare(...)`) em vez de concatenar variáveis nas queries.
-- Usar `htmlspecialchars()` ao exibir dados vindos do usuário/banco nas páginas.
-
-## Licença
-
-Este projeto está sob a licença MIT.
